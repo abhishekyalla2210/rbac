@@ -9,5 +9,5 @@ subjects:
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role # This must be Role or ClusterRole
-  name: pod-demo # Must match the name of an existing Role or ClusterRole
+  name: trainee-role # Must match the name of an existing Role or ClusterRole
   apiGroup: rbac.authorization.k8s.io
