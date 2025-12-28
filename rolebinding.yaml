@@ -1,7 +1,7 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: read-pods-binding
+  name:  roboshop-trainee
   namespace: roboshop # The namespace where this binding and the Role are effective
 subjects:
 - kind: User
