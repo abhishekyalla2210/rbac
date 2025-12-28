@@ -9,8 +9,7 @@ data:
       username: system:node:{{EC2PrivateDNSName}}
    mapUsers: |
     - userarn: arn:aws:iam::112108975903:user/abhishek
-      groups:
-      - roboshop-trainee
+      username: abhishek
 
 
 kind: ConfigMap

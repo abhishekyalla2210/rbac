@@ -5,7 +5,7 @@ metadata:
   namespace: roboshop # The namespace where this binding and the Role are effective
 subjects:
 - kind: User
-  name:  roboshop-trainee # Name is case sensitive
+  name:  abhishek # Name is case sensitive
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role # This must be Role or ClusterRole
