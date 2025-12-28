@@ -2,12 +2,12 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   name: read-pods-binding
-  namespace: default # The namespace where this binding and the Role are effective
+  namespace: roboshop # The namespace where this binding and the Role are effective
 subjects:
 - kind: User
   name: ramesh # Name is case sensitive
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role # This must be Role or ClusterRole
-  name: trainee-role # Must match the name of an existing Role or ClusterRole
+  name: roboshop-role # Must match the name of an existing Role or ClusterRole
   apiGroup: rbac.authorization.k8s.io

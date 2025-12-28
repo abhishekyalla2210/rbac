@@ -7,6 +7,9 @@ data:
       - system:bootstrappers
       - system:nodes
       username: system:node:{{EC2PrivateDNSName}}
+    - userarn: arn:aws:iam::112108975903:user/ramesh
+      groups:
+      - roboshop-trainee
 
 kind: ConfigMap
 metadata:
