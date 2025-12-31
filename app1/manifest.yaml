@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: abhishekyalla/nginx
+          image: abhishekyalla/nginx:v1
 
           
 --- 
